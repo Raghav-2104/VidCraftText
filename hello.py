@@ -176,5 +176,4 @@ else:
 
     # Play the audio and download it
     print(f"Playing and downloading {indian_languages[target_language]} audio...")
-    display(Audio(audio_file))
-
+    Audio(audio_file, autoplay=True)
